@@ -57,4 +57,4 @@ do tipo ax2+bx+c = 0 e mostre as raízes dessa equação.**
 **17. Maria precisa informa ao sistema de controle de notas as notas dos alunos, porém as notas
 estão em ordem invertida. Desenvolva um algoritmo que dada duas notas armazenadas nas
 variáveis a e b, inverta os valores de a e b (o valor que estava na variável a vai para a variável b
-e o que estava na variável b vai para a variável a). **
+e o que estava na variável b vai para a variável a).**
