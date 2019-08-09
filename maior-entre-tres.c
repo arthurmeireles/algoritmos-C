@@ -12,7 +12,6 @@ int main(void) {
   if(a>b && a<c){
     printf("%.2f", c);
   }
-
   if(a<b && b>c){
     printf("%.2f", b);
   }
