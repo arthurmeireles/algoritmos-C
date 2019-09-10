@@ -3,12 +3,12 @@ int main(void) {
   int a1[10], a2[10], iguais = 0, entrada;
   printf("Digite os valores inteiros do array 1 \n");
   for(int i = 0 ; i<10 ; i++){
-    scanf("%d ", &entrada);
+    scanf("%d", &entrada);
     a1[i] = entrada;
   }
   printf("Digite os valores inteiros do array 2 \n");
   for(int i = 0 ; i<10 ; i++){
-    scanf("%d ", &entrada);
+    scanf("%d", &entrada);
     a2[i] = entrada;
   }
   for(int i = 0; i < 10 ; i++){
