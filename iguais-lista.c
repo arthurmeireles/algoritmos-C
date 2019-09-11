@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void) {
   int a1[10], a2[10], iguais = 0, entrada;
   printf("Digite os valores inteiros do array 1 \n");
