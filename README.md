@@ -58,3 +58,43 @@ do tipo ax2+bx+c = 0 e mostre as raízes dessa equação.**
 estão em ordem invertida. Desenvolva um algoritmo que dada duas notas armazenadas nas
 variáveis a e b, inverta os valores de a e b (o valor que estava na variável a vai para a variável b
 e o que estava na variável b vai para a variável a).**
+
+## 2ª Lista de exercícios 
+
+1. Desenvolva um algoritmo que leia um numero inteiro e informe se ele ´e positivo, negativo ou nulo.
+2. Desenvolva um algoritmo que leia um numero inteiro e informe se ele ´e m´ultiplo de 5.
+3. Desenvolva um algoritmo que leia dois numeros e informe se eles s˜ao iguais ou n˜ao.
+4. Desenvolva um algoritmo que leia dois numeros e mostre o maior.
+5. Desenvolva um algoritmo que leia tres numeros e mostre o maior.
+6. Desenvolva um algoritmo que leia um numero, que representa a nota de um aluno, e informe se a nota é valida
+ou nao. As notas sao validas se estao entre 0.0 e 10.0.
+7. Desenvolva um algoritmo que leia as duas notas de um aluno n1 e n2 e informe se o aluno passou, considerando
+o calculo da media do CEFET.
+8. Desenvolva um algoritmo que leia dois numeros a e b e deixe-os em ordem crescente, ou seja, o menor devera
+ficar armazenado na variavel a e o maior na variavel b.
+9. Desenvolva um algoritmo que dado um numero inteiro n, informe se o numero e par ou ımpar.
+10. Desenvolva um algoritmo que leia um numero inteiro e mostre a raiz do numero caso ele seja positvo ou o
+quadrado caso ele seja negativo.
+11. Desenvolva um algoritmo que leia 5 numeros e informe e maior e o menor.
+12. Desenvolva um algoritmo que leia tres valores a, b e c de uma equacao do segundo grau do tipo ax2 + bx + c = 0
+e informe quantas raızes reais existem e quais sao.
+13. Desenvolva um algoritmo que, dado tres numeros inteiros, verifique se estes formam os comprimentos dos lados
+de um triangulo.
+14. Modifique o algoritmo anterior e, caso os numeros formem um triangulo, informe se o triangulo e equilatero (os
+tres lados iguais), isosceles (dois lados iguais) ou escaleno (os tres lados diferentes).
+15. Desenvolva um algoritmo que leia uma medida de angulos (em graus). Calcule e mostre o quadrante em que se
+localiza esse angulo. Considere os quadrantes da trigonometria.
+16. Modifique o algoritmo do exercıcio anterior para que alem de informar o quadrante em que se localiza o angulo,
+informe tambem quantas volta o angulo da. O numero de volta e a quantidade de vezes que ele passa novamente
+pelo angulo 0o.
+17. Desenvolva um algoritmo que, dado tres numeros inteiros d, m e a, que representam o dia, o mes e o ano de uma
+data qualquer, informe se esta data e valida.
+18. Desenvolva um algoritmo que dada uma data, representada atraves tres numeros inteiros, um para o dia, um
+para o mes e outro para o ano, informe a data do dia seguinte.
+19. Desenvolva um algoritmo que data duas datas informe qua a maior. Leia cada data em tres variaveis, uma para
+o dia, uma para o mes e outra para o ano.
+20. Desenvolva um algoritmo que leia tres numeros a, b e c e deixe-os em ordem decrescente, ou seja, o maior devera
+ficar armazenado na variavel a, o menor na c e o outro da b.
+
+
+
