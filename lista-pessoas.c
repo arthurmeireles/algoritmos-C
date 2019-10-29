@@ -1,5 +1,3 @@
-//falta resolver o problema do nome
-
 #include <stdio.h>
 #include <string.h>
 
@@ -8,7 +6,7 @@ struct nascimento{
 };
 
 struct pessoa{
-  // char nome[80];
+  char nome[80];
   float peso, altura;
   struct nascimento dataNascimento;
 };
@@ -22,26 +20,33 @@ int main(void) {
     printf("Digite [2] para adicionar uma pessoa \n");
 
     int entradaMenu;
+    fflush(stdin);
     scanf("%d", &entradaMenu);
 
     if(entradaMenu==0){
       break;
     }
-    if(entradaMenu==1){
+
+    if(entradaMenu == 1){      
       for(int i = 0; i < contadorCadastros; i++){
-        // printf("Nome: %s \n", pessoas[i].nome);
+        printf("Nome: %s \n", pessoas[i].nome);
         printf("Peso: %.2f \n", pessoas[i].peso);
         printf("Altura: %.2f \n", pessoas[i].altura);
-        printf("Data nascimento: %2.d / %2.d / %d \n", pessoas[i].dataNascimento.dia, pessoas[i].dataNascimento.mes, pessoas[i].dataNascimento.ano);
+        printf("Data nascimento: %d / %d / %d \n", pessoas[i].dataNascimento.dia, pessoas[i].dataNascimento.mes, pessoas[i].dataNascimento.ano);
       }
     }
     if(entradaMenu==2){
-      struct pessoa a;
-      // a.nome = 'batata';
-      scanf("%f", &a.peso);
-      scanf("%f", &a.altura);
-      scanf("%d %d %d", &a.dataNascimento.dia, &a.dataNascimento.mes,&a.dataNascimento.ano);
-      pessoas[contadorCadastros] = a;
+      printf("Digite seu nome: \n");
+      scanf("%s", &pessoas[contadorCadastros].nome);
+      fflush(stdin);
+      printf("Digite seu peso: \n");
+      scanf("%f", &pessoas[contadorCadastros].peso);
+      printf("Digite sua altura: \n");
+      scanf("%f", &pessoas[contadorCadastros].altura);
+
+      printf("Digite sua data de nascimento: \n");
+      scanf("%d %d %d", &pessoas[contadorCadastros].dataNascimento.dia, &pessoas[contadorCadastros].dataNascimento.mes, &pessoas[contadorCadastros].dataNascimento.ano);
+      
       contadorCadastros++;
     }
   }
