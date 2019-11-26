@@ -1,0 +1,6 @@
+# 1.Descreva o funcionamento dos algoritmos do tipo divisão e conquista, explicitando as 3
+fases: divisão, conquista e combinação.
+
+Dividir o problema em um número de subproblemas que sejam partes menores do mesmo problemas.
+Conquistar os subproblemas resolvendo-os recursivamente. Se eles forem pequenos o suficiente, resolva os subproblemas como problemas base.
+Combinar as soluções dos subproblemas em uma solução para o problema original.
